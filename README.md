@@ -18,7 +18,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone this repository to your local machine:
 
-git clone [https://github.com/your-username/todo-app.git](https://github.com/ddheer29/todo-app-assignment/)
+git clone [here](https://github.com/ddheer29/todo-app-assignment/)
 
 2. Navigate to the project directory:
 
