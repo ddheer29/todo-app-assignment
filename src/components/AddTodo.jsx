@@ -13,17 +13,17 @@ const AddTodo = () => {
     }
 
     return (
-        <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
+        <form onSubmit={addTodoHandler} className="space-x-0 mt-12">
             <input
                 type="text"
-                className="bg-gray-200 rounded border border-gray-500 text-base outline-none text-gray-900 py-2 px-4"
+                className="bg-gray-200 rounded-l-lg  outline-none text-gray-900 py-2 w-1/3 px-5 text-lg"
                 placeholder="Enter your Tasks..."
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
             />
             <button
                 type="submit"
-                className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                className="text-white bg-green-500 py-2 px-4 focus:outline-none hover:bg-green-600 rounded-r-lg text-lg"
             >
                 Add Task
             </button>
