@@ -1,8 +1,14 @@
 import React from 'react'
+import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
+import './App.css'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <AddTodo />
+            <Todos />
+        </div>
     )
 }
 
